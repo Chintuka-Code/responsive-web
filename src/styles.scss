@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    padding: 0;
+    margin: 0;
+}
+// animate image
+.image-animate
+{
+    position: relative !important;
+    left: 200px !important;
+}
+.img-ani
+{
+    width: 100px !important;
+}
+.bg-animation
+{
+    background-color: indianred !important;
+}
+.bg-animation1
+{
+    background-color: lightseagreen !important;
+}
+.h1-color
+{
+    background-image: linear-gradient(to right, rgba(119, 179, 235, 0), rgba(117, 10, 10, 0.315)) !important;
+    width: 500px !important;
+}
+.h1-color1
+{
+    background-image: linear-gradient(to right, rgba(221, 129, 129, 0), rgb(134, 9, 9)) !important;
+    width: 200px !important;
+}
