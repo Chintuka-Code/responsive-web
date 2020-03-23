@@ -31,3 +31,64 @@ body{
     background-image: linear-gradient(to right, rgba(221, 129, 129, 0), rgb(134, 9, 9)) !important;
     width: 200px !important;
 }
+
+
+// nab bar animation 1
+
+
+.hide
+{
+ opacity: 0;
+ cursor: none;
+}
+
+
+.section
+{
+   opacity: 1 !important;
+    z-index: 1 !important;
+    position: absolute !important;
+    top: 2rem !important;
+    left: 1.5rem !important;
+    div
+    {
+        width: 100% !important;
+        h3
+        {
+            opacity: 1 !important;
+        }
+    }
+    div:nth-child(1)
+    {   
+        img
+        {
+            opacity: 1 !important;
+        }
+    }
+    div:nth-child(2)
+    {
+        position: absolute !important;
+        top: 52px !important;
+    }
+    div:nth-child(3)
+    {
+        position: absolute !important;
+        top: 105px !important;
+    }
+    div:nth-child(4)
+    {
+        position: absolute !important;
+        top: 157px !important;
+    }
+    div:nth-child(5)
+    {
+        position: absolute !important;
+        top: 289px !important;
+    }
+    div:nth-child(6)
+    {
+        position: absolute !important;
+        top: 400px !important;
+    }
+
+}
