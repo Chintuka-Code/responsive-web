@@ -7,6 +7,8 @@ import { ImagesComponent } from './pages/images/images.component';
 import { GridPart1Component } from './pages/grid-part1/grid-part1.component';
 import { NavBarAnimation1Component } from './pages/nav-bar-animation1/nav-bar-animation1.component';
 import { GridGapComponent } from './pages/grid-gap/grid-gap.component';
+import { MinmaxComponent } from './pages/minmax/minmax.component';
+import { MinContentComponent } from './pages/min-content/min-content.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { GridGapComponent } from './pages/grid-gap/grid-gap.component';
     ImagesComponent,
     GridPart1Component,
     NavBarAnimation1Component,
-    GridGapComponent
+    GridGapComponent,
+    MinmaxComponent,
+    MinContentComponent
   ],
   imports: [
     BrowserModule,
