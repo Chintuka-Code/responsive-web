@@ -9,6 +9,7 @@ import { NavBarAnimation1Component } from './pages/nav-bar-animation1/nav-bar-an
 import { GridGapComponent } from './pages/grid-gap/grid-gap.component';
 import { MinmaxComponent } from './pages/minmax/minmax.component';
 import { MinContentComponent } from './pages/min-content/min-content.component';
+import { GridPropertyComponent } from './pages/grid-property/grid-property.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MinContentComponent } from './pages/min-content/min-content.component';
     NavBarAnimation1Component,
     GridGapComponent,
     MinmaxComponent,
-    MinContentComponent
+    MinContentComponent,
+    GridPropertyComponent
   ],
   imports: [
     BrowserModule,

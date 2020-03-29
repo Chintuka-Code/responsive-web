@@ -1,89 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    padding: 0;
-    margin: 0;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 // animate image
-.image-animate
-{
-    position: relative !important;
-    left: 200px !important;
+.image-animate {
+  position: relative !important;
+  left: 200px !important;
 }
-.img-ani
-{
-    width: 100px !important;
+.img-ani {
+  width: 100px !important;
 }
-.bg-animation
-{
-    background-color: indianred !important;
+.bg-animation {
+  background-color: indianred !important;
 }
-.bg-animation1
-{
-    background-color: lightseagreen !important;
+.bg-animation1 {
+  background-color: lightseagreen !important;
 }
-.h1-color
-{
-    background-image: linear-gradient(to right, rgba(119, 179, 235, 0), rgba(117, 10, 10, 0.315)) !important;
-    width: 500px !important;
+.h1-color {
+  background-image: linear-gradient(
+    to right,
+    rgba(119, 179, 235, 0),
+    rgba(117, 10, 10, 0.315)
+  ) !important;
+  width: 500px !important;
 }
-.h1-color1
-{
-    background-image: linear-gradient(to right, rgba(221, 129, 129, 0), rgb(134, 9, 9)) !important;
-    width: 200px !important;
+.h1-color1 {
+  background-image: linear-gradient(
+    to right,
+    rgba(221, 129, 129, 0),
+    rgb(134, 9, 9)
+  ) !important;
+  width: 200px !important;
 }
 
 // nab bar animation 1
-.hide
-{
- opacity: 0;
- cursor: none;
+.hide {
+  opacity: 0;
+  cursor: none;
 }
-.section
-{
-   opacity: 1 !important;
-    z-index: 1 !important;
+.section {
+  opacity: 1 !important;
+  z-index: 1 !important;
+  position: absolute !important;
+  top: 2rem !important;
+  left: 1.5rem !important;
+  div {
+    width: 100% !important;
+    h3 {
+      opacity: 1 !important;
+    }
+  }
+  div:nth-child(1) {
+    img {
+      opacity: 1 !important;
+    }
+  }
+  div:nth-child(2) {
     position: absolute !important;
-    top: 2rem !important;
-    left: 1.5rem !important;
-    div
-    {
-        width: 100% !important;
-        h3
-        {
-            opacity: 1 !important;
-        }
-    }
-    div:nth-child(1)
-    {   
-        img
-        {
-            opacity: 1 !important;
-        }
-    }
-    div:nth-child(2)
-    {
-        position: absolute !important;
-        top: 52px !important;
-    }
-    div:nth-child(3)
-    {
-        position: absolute !important;
-        top: 105px !important;
-    }
-    div:nth-child(4)
-    {
-        position: absolute !important;
-        top: 157px !important;
-    }
-    div:nth-child(5)
-    {
-        position: absolute !important;
-        top: 289px !important;
-    }
-    div:nth-child(6)
-    {
-        position: absolute !important;
-        top: 400px !important;
-    }
-
+    top: 52px !important;
+  }
+  div:nth-child(3) {
+    position: absolute !important;
+    top: 105px !important;
+  }
+  div:nth-child(4) {
+    position: absolute !important;
+    top: 157px !important;
+  }
+  div:nth-child(5) {
+    position: absolute !important;
+    top: 289px !important;
+  }
+  div:nth-child(6) {
+    position: absolute !important;
+    top: 400px !important;
+  }
 }

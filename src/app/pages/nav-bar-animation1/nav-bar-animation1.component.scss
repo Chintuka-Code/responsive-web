@@ -1,132 +1,102 @@
-header
-{
-   
-    background-image: url(../../../assets/images/car.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
+header {
+  background-image: url(../../../assets/images/car.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
 
-    nav
-{
+  nav {
     position: absolute;
     top: 0;
     width: 325px;
     height: 98vh;
     margin: 0;
     padding: 0;
-   #hambarger
-    {
-       width: 35px;
-       margin-top: 1rem;
-       margin-left: .5rem;
-        cursor: pointer;
-        transition: all 250ms ease-in-out;
-       div
-       {
-           width: 35px;
-           border: 1.5px solid white;
-           transition: all 2s ease-in-out;
-       }
-       div:nth-child(2),:nth-child(3)
-       {
-        margin-top: .5rem;
-       }
+    #hambarger {
+      width: 35px;
+      margin-top: 1rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+      transition: all 250ms ease-in-out;
+      div {
+        width: 35px;
+        border: 1.5px solid white;
+        transition: all 2s ease-in-out;
+      }
+      div:nth-child(2),
+      :nth-child(3) {
+        margin-top: 0.5rem;
+      }
     }
 
-    section
-    {
+    section {
+      position: absolute;
+      top: 0;
+      left: 0.5rem;
+      width: 300px;
+      height: 96%;
+      box-sizing: border-box;
+      z-index: -1;
+      opacity: 0;
+      transition: all 2s ease-in-out;
+      div {
         position: absolute;
         top: 0;
-        left: .5rem;
-        width: 300px;
-        height: 96%;
-        box-sizing: border-box;
-         z-index: -1;
-         opacity: 0;
-         transition: all 1s ease-in-out;
-        div
-        {
-            position: absolute;
-            top: 0;
-            height: 40px;
-            padding: .8rem 0 0 0;
-            width: 0;
-            background-color: white;
-            cursor: pointer;
-            h3
-            {
-                padding: .2rem;
-                margin: 0 0 0 1rem;
-                opacity: 0;
-                transition: all 1.4s ease-in-out;
-            }
-            ul
-            {
-                margin: -.1rem 0 0 0;
-                list-style: none;
-                background-color: white;
-                li
-                {
-                    margin-top: .8rem;
-                    font-weight: bold;
-                    color: rgb(90, 85, 85);
-                    opacity: .8;
-                }
-            }
+        height: 40px;
+        padding: 0.8rem 0 0 0;
+        width: 0;
+        background-color: white;
+        cursor: pointer;
+        h3 {
+          padding: 0.2rem;
+          margin: 0 0 0 1rem;
+          opacity: 0;
+          transition: all 1.4s ease-in-out;
         }
-        div:hover
-        {
-            background-color: grey;
-            
+        ul {
+          margin: -0.1rem 0 0 0;
+          list-style: none;
+          background-color: white;
+          li {
+            margin-top: 0.8rem;
+            font-weight: bold;
+            color: rgb(90, 85, 85);
+            opacity: 0.8;
+          }
         }
-           div:nth-child(1)
-           {
-               display: flex;
-               flex-direction: row;
-               transition: all 1.8s ease-in-out;
-               background-color: grey;
-               img
-               {
-                   width: 12px;
-                   margin-top: -10px;
-                   margin-left: 200px;
-                   cursor: pointer;
-                   opacity: 0;
-                   transition: all 2.5s ease-in-out;
-               }
-           }
-          
-           div:nth-child(2)
-           {
-               
-               transition: all 1.5s ease-in-out;
-           }
-           div:nth-child(3)
-           {
-              
-               transition: all 1.3s ease-in-out;
-           }
-           div:nth-child(4)
-           {
-              
-               transition: all 1.1ms ease-in-out;
-              
-           }
-           div:nth-child(5)
-           {
-              
-               transition: all 900ms ease-in-out;
-              
-           }
-           div:nth-child(6)
-           {
-              
-               transition: all 700ms ease-in-out;
-              
-           }
-           
+      }
+      div:hover {
+        background-color: grey;
+      }
+      div:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        transition: all 1.8s ease-in-out;
+        background-color: grey;
+        img {
+          width: 12px;
+          margin-top: -10px;
+          margin-left: 200px;
+          cursor: pointer;
+          opacity: 0;
+          transition: all 2.5s ease-in-out;
+        }
+      }
+
+      div:nth-child(2) {
+        transition: all 1.5s ease-in-out;
+      }
+      div:nth-child(3) {
+        transition: all 1.3s ease-in-out;
+      }
+      div:nth-child(4) {
+        transition: all 1.1ms ease-in-out;
+      }
+      div:nth-child(5) {
+        transition: all 800ms ease-in-out;
+      }
+      div:nth-child(6) {
+        transition: all 600ms ease-in-out;
+      }
     }
+  }
 }
-}
-
-

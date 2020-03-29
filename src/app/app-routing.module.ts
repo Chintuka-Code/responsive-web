@@ -6,6 +6,7 @@ import { NavBarAnimation1Component } from './pages/nav-bar-animation1/nav-bar-an
 import { GridGapComponent } from './pages/grid-gap/grid-gap.component';
 import { MinmaxComponent } from './pages/minmax/minmax.component';
 import { MinContentComponent } from './pages/min-content/min-content.component';
+import { GridPropertyComponent } from './pages/grid-property/grid-property.component';
 
 const routes: Routes = 
 [
@@ -15,6 +16,7 @@ const routes: Routes =
   {path:'gridgap',component:GridGapComponent},
   {path:'minmax',component:MinmaxComponent},
   {path:'mincontent',component:MinContentComponent},
+  {path:'gridproperty',component:GridPropertyComponent},
 ];
 
 @NgModule({
